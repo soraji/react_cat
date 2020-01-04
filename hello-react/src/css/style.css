@@ -1,0 +1,390 @@
+/* main slider */
+.main .Main_banner {
+    margin-top: 50px;
+}
+/* multiple slider*/
+.main .multiple {
+    width:100%;
+    margin: 0 auto;
+}
+.main .multiple .top {
+    border-bottom: none;
+}
+.main .multiple .main_tit {
+    font-size: 18px;
+    text-align: center;
+    margin: 100px 0 0;
+}
+
+.main .multiple .main_tit span{
+    font-size: 12px;
+    font-weight: normal;
+    display: inline-block;
+    margin: 10px 0 0;
+}
+
+.main .multiple .main_tit + .btn_wrap {
+    text-align: right;
+    width:1200px;
+    margin:0 auto 20px;
+
+}
+
+.main .multiple .main_tit + .btn_wrap span{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main .multiple .main_tit + .btn_wrap span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main .multiple ul li img{
+    width: 100%;
+    margin: 0 auto;
+}
+.main .multiple ul li div.area{
+    padding: 20px 0;
+}
+
+.main .multiple ul li div.area p.txt span{
+    font-weight: 400;
+}
+
+.content .top {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.content.main  .top {
+    border-bottom: none;
+}
+.content .top h1.tit{
+    font-size: 20px;
+}
+
+.animal_list .mid {
+    overflow: hidden;
+}
+.animal_list .mid .btn_wrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0 0;
+    text-align: left;
+}
+
+.animal_list .mid .btn_wrap span.sort span{
+    display: inline-block;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.animal_list .mid .btn_wrap span.sort::after{
+    content: '|';
+    padding: 0 8px;
+    color: #666;
+    vertical-align: top;
+    font-size: 15px;
+}
+.animal_list .mid .btn_wrap span.sort.state::after{
+    content: '';
+}
+.animal_list .mid .btn_wrap span.sort span.on{
+    text-decoration: underline;
+}
+.animal_list .mid .btn_wrap div.roundBtn_wrap{
+    float: right;
+    cursor: pointer;
+}
+.animal_list .mid .list_wrap{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.animal_list .list_wrap li{
+    background-color: #fff;
+    padding: 30px;
+    border-bottom:1px solid #eee;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+}
+.animal_list .list_wrap li div.thumb{
+    width: 150px;
+    padding-bottom: 150px;
+    float: right;
+}
+.animal_list .list_wrap li div.txtBx{
+    width: calc(100% - 150px);
+    float: left;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.animal_list .list_wrap li div.txtBx p.tit{
+    font-size: 20px;
+    font-weight: 400;
+}
+.animal_list .list_wrap li div.txtBx p.subtxt{
+    font-size: 14px;
+    color: #666;
+    height: 60px;
+    overflow: hidden;
+}
+.product div.mid > div {
+    width: 1000px;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+}
+.product div.mid div.btn_wrap {
+    width: 800px;
+    float: right;
+}
+.product div.mid div.btn_wrap span.sort.kind{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100px;
+}
+.product div.mid div.btn_wrap span.sort.kind strong{
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+}
+.product div.mid div.btn_wrap span.sort.kind span{
+    display: inline-block;
+    background-color: #eee;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.product div.mid div.btn_wrap span.sort.kind span.on,
+.product div.mid div.btn_wrap span.sort.kind span:hover{
+    background-color: #ddd;
+}
+.product div.mid div.btn_wrap span.sort.state{
+    float: left;
+    margin-left: 10px;
+}
+.product div.mid div.btn_wrap span.sort.state span{
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product div.mid div.btn_wrap span.sort.state span.on,
+.product div.mid div.btn_wrap span.sort.state span:hover{
+    text-decoration: underline;
+}
+
+.product div.mid div.btn_wrap div.roundBtn_wrap{
+    float: right;
+    margin-right: 10px;
+}
+.product div.mid div.btn_wrap div.roundBtn_wrap span{
+    cursor: pointer;
+}
+.product div.mid div.btn_wrap div.roundBtn_wrap span:hover{
+    border: 1px solid #fe7f9c;
+    color: #fe7f9c;
+}
+.product div.mid ul.list_wrap {
+    width: 800px;
+    float: right;
+}
+.product div.mid ul.list_wrap li {
+    width: calc(33.3333% - 42px);
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 10px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    height: 300px;
+    vertical-align: top;
+}
+.product.Recommendation div.mid ul.list_wrap li {
+    height: 330px;
+}
+.product div.mid ul.list_wrap li div.thumb{
+    width:100%;
+    padding-bottom:100%;
+}
+.product div.mid ul.list_wrap li div.txtBx{
+    padding-top:12px;
+}
+.product div.mid ul.list_wrap li div.txtBx .info span.star_graph{
+    width: 75px;
+    height: 15px;
+    background-image: url(../img/star_back_ico.png);
+    background-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+.product div.mid ul.list_wrap li div.txtBx .info span.star_graph span{
+    width: 88%;
+    height: 15px;
+    background-image: url(../img/star_ico.png);
+    background-size: 15px;
+    display: block;
+}
+.product div.mid ul.list_wrap li div.txtBx .info span.txt{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    word-wrap:normal;
+    width:calc(100% - 30px);
+    overflow:hidden;
+    padding: 0;
+}
+.product div.mid ul.list_wrap li div.txtBx .info span.ico{
+    cursor: pointer;
+    color: #fe7f9c;
+    opacity: 0.8;
+}
+.product div.mid ul.list_wrap li div.txtBx .info span.ico i{
+    font-size: 20px;
+}
+
+.product div.mid ul.list_wrap li div.txtBx span.state_info{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.product div.mid ul.list_wrap li div.txtBx span.new_ico{
+    font-size: 10px;
+    color: #fe7f9c;
+    display: inline-block;
+    padding: 0 5px;
+}
+.Recommendation .info span::after{
+    content: '';
+    padding:0;
+}
+.Talk .mid {
+    padding:20px 0 50px;
+}
+.Talk .mid .writeBox {
+    width: 1000px; 
+    margin:0 auto;
+    padding: 20px; 
+    background-color: #fff;
+    border:1px solid #ddd;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.Talk .mid .writeBox *{
+    box-sizing: border-box;
+}
+.Talk .mid .writeBox textarea{
+    width: 1000px; 
+    height: 118px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+.Talk .mid .writeBox input{
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.Talk .mid .writeBox div.file-wrap div{
+    position: relative;
+    width: 38px;
+    height: 38px;
+    float: left;
+    margin-right: 10px;
+}
+.Talk .mid .writeBox div.file-wrap div img{
+    width: 100%;
+    height: 100%;
+}
+
+.Talk .mid .writeBox div.file-wrap div .cover{
+    position: absolute;
+    width: 38px;
+    top: 0;
+    left: 0;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    letter-spacing: -1px;
+    text-align: center;
+    background: #000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    font-size: 12px;
+    cursor: pointer;
+}
+.Talk .mid .writeBox .file-attach .camera {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #959595;
+    cursor: pointer;
+}
+.Talk .mid .writeBox .file-attach .camera input.file-trick{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    border: 0 none;
+    background: 0 none;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.Talk .mid .listBox {
+    width: 1000px;
+    margin: 50px auto;
+}
+.Talk .mid .listBox li {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.Talk .mid .listBox li .writer {
+    width: 90px;
+    height: 90px;
+    background-color: #fe7f9c69;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.Talk .mid .listBox li .writer + div {
+    width: 890px;
+    background: #fff;
+    padding: 0 20px 15px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 90px;
+    border: 1px dashed #ddd;
+}
+
+.Talk .mid .listBox li:nth-child(odd) .writer ,
+.Talk .mid .listBox li:nth-child(odd) .writer + div {
+    float: left;
+}
+.Talk .mid .listBox li:nth-child(odd) .writer + div {
+    margin:0 0 0 20px;
+}
+.Talk .mid .listBox li:nth-child(even) .writer ,
+.Talk .mid .listBox li:nth-child(even) .writer + div {
+    float: right;
+}
+.Talk .mid .listBox li:nth-child(even) .writer + div {
+    margin:0 20px 0 0;
+
+}

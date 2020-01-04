@@ -1,5 +1,4 @@
 import React,{Component, Fragment} from 'react';
-import {NavLink} from 'react-router-dom';
 import '../css/Login.css';
 import kakao from '../img/kakao.png';
 import naver from '../img/naver.png';
@@ -10,6 +9,7 @@ class Login extends Component {
       <Fragment>
         <div className="loginClass">
           <form>
+
             <table className="loginTable">
             <tbody>
               <tr>
@@ -25,12 +25,12 @@ class Login extends Component {
               </tr>
               <tr>
                 <td colSpan="2">
-                  <button className="kakao"><img src={kakao} style={{width:25,height:25,marginRight:10}}/>카카오 아이디로 시작하기</button>
+                  <button className="kakao"><img src={kakao} alt="카카오 아이디로 시작하기" style={{width:25,height:25,marginRight:10}}/>카카오 아이디로 시작하기</button>
                 </td>
               </tr>
               <tr>
                 <td colSpan="2">
-                  <button className="naver"><img src={naver} style={{width:25,height:25,marginRight:10}}/>네이버 아이디로 시작하기</button>
+                  <button className="naver"><img src={naver} alt="네이버 아이디로 시작하기" tyle={{width:25,height:25,marginRight:10}}/>네이버 아이디로 시작하기</button>
                 </td>
               </tr>
             </tbody>

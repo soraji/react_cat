@@ -24,6 +24,7 @@
 .td_left{
   width: 120px;
 }
+
 .td_right{
 }
 .btn{
@@ -45,6 +46,7 @@ input{
   outline: 0;
   background: transparent;
   border-bottom: 1px solid black;
+
 }
 select{
   position: relative;

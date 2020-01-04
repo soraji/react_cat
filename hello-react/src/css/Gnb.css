@@ -5,6 +5,9 @@
     left: 0;
     z-index: 10;
 }
+.gnb_wrap li a{
+    font-size: 13px;
+}
 .gnb_wrap .gnb_left {
     width: 500px;
     text-align: left;
@@ -16,6 +19,7 @@
     list-style: none; 
     padding: 0 10px;
 }
+
 .gnb_wrap .gnb_right {
     width: 180px;
     text-align: left;

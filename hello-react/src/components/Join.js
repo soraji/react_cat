@@ -1,8 +1,8 @@
 import React,{Component, Fragment} from 'react';
-import {NavLink} from 'react-router-dom';
 import '../css/Join.css';
 
 class Join extends Component {
+
   constructor(props) {
     super(props);
     this.state = {
@@ -50,6 +50,7 @@ class Join extends Component {
                 <td className="must">*</td>
                 <td className="td_left">생년월일</td>
                 <td className="td_right">
+
                 <select name="byear" id="byear" className="c_birth01" defaultValue={'DEFAULT'}>
                   <option value="DEFAULT">선택</option>
                   <option value="1957">1957년</option>
@@ -116,6 +117,7 @@ class Join extends Component {
                   <option value="2018">2018년</option>
                   <option value="2019">2019년</option>
                 </select>
+
                 <select name="bmonth" id="bmonth" className="c_birth02" defaultValue={'DEFAULT'}>
                   <option value="DEFAULT">선택</option>
                   <option value="1">1월</option>
@@ -131,6 +133,7 @@ class Join extends Component {
                   <option value="11">11월</option>
                   <option value="12">12월</option>
                 </select>
+
                 <select name="bday" id="bday" className="c_birth03" defaultValue={'DEFAULT'}>
                   <option value="DEFAULT">선택</option>
                   <option value="1">1일</option>
@@ -185,6 +188,7 @@ class Join extends Component {
                 <td className="must">*</td>
                 <td className="td_left">메일주소</td>
                 <td className="td_right">
+
                   <input name="email1" id="email1" type="text" maxLength="50" className="email01"></input>
                   <span className="bl_a">@</span>
                   <input type="text" name="email3" id="email3" className="email02" maxLength="50" ></input>

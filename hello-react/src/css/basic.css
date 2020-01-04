@@ -1,0 +1,121 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color:#333;
+    box-sizing: border-box;
+}
+ul, p{
+    padding : 0;
+    margin : 0;
+}
+li {
+    list-style : none;
+}
+.content {
+    margin-top: 50px;
+}
+.top {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.top h1.tit{
+    font-size: 20px;
+}
+.mid {
+    background-color: #fafafa;
+}
+.tit{
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word; 
+    line-height: 1.2em;
+    max-height: 2.4em;
+}
+.txt{
+    font-size: 13px;
+    padding: 15px 0 10px 0;
+    line-height: 21px;
+    color: #959595;
+}
+.info{
+    font-size: 12px;
+    color: #666;
+}
+.info span{
+    display: inline-block;
+}
+.info span::after{
+    content: '·';
+    padding: 0 5px;
+}
+.info span:last-child::after{
+    content: '';
+}
+.thumb {
+    background-size: cover;
+    background-position: center;
+}
+.pb10 {
+    padding-bottom: 10px;
+}
+.pb20 {
+    padding-bottom: 20px;
+}
+.pb30 {
+    padding-bottom: 30px;
+}
+.mb20 {
+    margin-bottom:20px;
+}
+
+/* 둥근 버튼 */
+.roundBtn_wrap > span,
+.roundBtn_wrap > input.btn{
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 10px ;
+    line-height: 21px;
+    color: #959595;
+    border: 1px solid #959595;
+    border-radius: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.roundBtn_wrap > span.on,
+.roundBtn_wrap > span:hover,
+.roundBtn_wrap > input.btn:hover{
+    color: #fe7f9c;
+    border: 1px solid #fe7f9c;
+}
+.roundBtn_wrap span:hover{
+    cursor: pointer;
+}
+/* 스와이프 */
+.swiper-container{
+    width: 100%;
+}
+.swiper-container img {
+    width: 100%;
+}
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after,
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+    content: ''; 
+    background-position: 0 0;
+}
+.swiper-button-next, .swiper-button-prev {
+    width:106px;
+    height: 127px;
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+}
+.swiper-button-next {
+    background-position: 0 0;
+}
+.swiper-button-next {
+    background-position: -105px 0;
+}
